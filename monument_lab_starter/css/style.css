@@ -1,0 +1,171 @@
+
+/*Add a link to Google Fonts at the top! THis should be the first line of your stylesheet.*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400|Raleway:600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+
+body {
+	font-family: "raleway", sans-serif;
+	font-weight: 600;
+	text-align: center;
+	color: #44545E;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+nav {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+nav a {
+	font-size: 16px;
+	color: #7B98AA;
+	text-decoration: none;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+header {
+	background-image: url('../images/home_header_bg.jpg');
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	padding-top: 200px;
+	margin-bottom: 150px;
+}
+
+header a {
+	font-size: 37px;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+	letter-spacing: .4em;
+}
+
+header h2 {
+		color: white;
+	letter-spacing: .2em;
+
+}
+
+main h2 {
+		margin-bottom: 50px;
+}
+
+.article-grid {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+	margin-left: 30px;
+	margin-right: 50px;
+	margin-left:50px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+main a {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #44545E;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	color: #44545E;
+	font-size: 13px;
+}
+
+.about {
+	margin-top: 100px;
+	background-color: #B2DFEE;
+	padding-bottom: 40px;
+	margin-bottom: 100px;
+	max-width: none;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.about h2 {
+	padding-top: 40px;
+	font-size: 23px;
+}
+
+.gallery-grid {
+	padding-top: 30px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+footer {
+	margin-top: 60px;
+	padding-top: 40px;
+	background-color: #B2DFEE;
+}
+
+.social-links a {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 2em;
+	color: #44545E;
+}
+
+footer input {
+	margin-top: 40px;
+	width: 250px;
+	height: 30px;
+	font-size: 9pt;
+	text-align: center;
+	text-transform: uppercase;
+	margin-right: 35px;
+}
+
+footer button {
+	background-color: #B2DFEE;
+	font-size: 9pt;
+	text-transform: uppercase;
+	width: 150px;
+	height: 30px;
+	color: #44545E;
+	border:2px solid #44545E;
+	margin-bottom: 30px;
+}
+
+footer hr {
+	border: 1px solid  #44545E;
+
+
+
+}
+
+footer p {
+	padding-bottom: 20px;
+}

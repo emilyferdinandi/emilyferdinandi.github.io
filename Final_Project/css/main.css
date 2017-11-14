@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+*
+body{
+  font-family:"Roboto", sans-serif;
+  font-size:15px;
+  font-weight:300px;
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  margin: 20px;
+  color: black;
+  text-align: left;
+
+}
+
+nav a{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  text-align: center;
+  margin-left: 0px;
+
+}
+
+header{
+  background-color: #255FDB;
+  padding:20px;
+  margin: 25px;
+  color: #F1F3F4;
+  text-align: center;
+}
+
+main{
+  display:grid;
+  margin-left: 200px;
+}
+
+h2 {
+  color: green;
+  margin-left: 150px;
+}
+
+p {
+
+}
+
+ul {
+
+
+}
+
+footer{
+  margin: 50px;
+  color:#25272B;
+};
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
